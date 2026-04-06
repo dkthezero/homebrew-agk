@@ -1,26 +1,26 @@
 class Agk < Formula
   desc "A terminal-based vault management tool"
   homepage "https://github.com/dkthezero/agk"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/dkthezero/agk/releases/download/v0.1.1/agk-v0.1.1-aarch64-apple-darwin.tar.gz"
-      sha256 "42ccc755c5deeca4806d5b12250d0711679ba5b144d985306abc6b42f2408296"
+      url "https://github.com/dkthezero/agk/releases/download/v0.1.2/agk-v0.1.2-aarch64-apple-darwin.tar.gz"
+      sha256 "91c2808ec0c68d5faf9efbb68d676458fd602d8b94a3d3d4581c94343864fb70"
     else
-      url "https://github.com/dkthezero/agk/releases/download/v0.1.1/agk-v0.1.1-x86_64-apple-darwin.tar.gz"
-      sha256 "e8fb8bc8bcf7df32d332de379531484c3b68c97cbb93c1a9751ecd1f8bb80745"
+      url "https://github.com/dkthezero/agk/releases/download/v0.1.2/agk-v0.1.2-x86_64-apple-darwin.tar.gz"
+      sha256 "092a8086e5278537a2726fedab4be41c35a9cefd2fb980528c44c5b8ed8fc3f1"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/dkthezero/agk/releases/download/v0.1.1/agk-v0.1.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "70219c2ba09c4f2f3d931475821d2e95e4c69a8fb7b1248343734512603cac0e"
+      url "https://github.com/dkthezero/agk/releases/download/v0.1.2/agk-v0.1.2-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "8732c3e17eed0cad6808a4861eefbfb088a78e8a7bea7f8ffffed2cd46ea2d82"
     else
-      url "https://github.com/dkthezero/agk/releases/download/v0.1.1/agk-v0.1.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "1ad88437920b5dfa381d8e8b0960243a545f92b6184ab089b1fefd9622bd103e"
+      url "https://github.com/dkthezero/agk/releases/download/v0.1.2/agk-v0.1.2-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "588103d5fcff06f18bb618458dd35adbf5872f6741732321a98cb4372392ffa8"
     end
   end
 
